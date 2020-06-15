@@ -2,7 +2,6 @@ export const Types = {
 	FETCH_REQUEST: '@states/FETCH_REQUEST',
 	FETCH_SUCCESS: '@states/FETCH_SUCCESS',
 	FETCH_FAILURE: '@states/FETCH_FAILURE',
-	// SET_DATE_LAST_REQUEST: '@states/SET_DATE_LAST_REQUEST',
 }
 
 const initialState = {

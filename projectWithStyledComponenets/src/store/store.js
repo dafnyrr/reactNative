@@ -11,4 +11,4 @@ const store = createStore(reducer, applyMiddleware(sagaMiddleware, logger))
 
 sagaMiddleware.run(rootSaga)
 
-export {store}
+export default store
